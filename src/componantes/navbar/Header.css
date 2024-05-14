@@ -1,0 +1,28 @@
+
+
+
+
+  /* Header.css */
+.navbar-nav {
+  display: flex;
+  justify-content: center; /* Center items horizontally */
+}
+
+.navbar-nav .nav-item {
+  margin-right: 15px; /* Adjust the spacing between nav items */
+}
+
+@media (max-width: 768px) {
+  .navbar-nav {
+    flex-direction: column; /* Stack items vertically on small screens */
+    text-align: center; /* Center text */
+  }
+
+  .navbar-nav .nav-item {
+    margin: 10px 0; /* Adjust the vertical spacing between nav items */
+  }
+  
+  .navbar-toggler {
+    margin-right: 0; /* Adjust margin for the toggler */
+  }
+}

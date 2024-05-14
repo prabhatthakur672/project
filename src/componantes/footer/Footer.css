@@ -1,0 +1,19 @@
+.footer-container {
+    padding: 20px; /* Add padding for better spacing */
+  }
+  
+  .footer-col {
+    margin-top: 10vh;
+  }
+  
+  .footer-logo {
+    max-width: 100%; /* Ensure the logo doesn't exceed its container */
+  }
+  
+  /* Media Queries */
+  @media only screen and (max-width: 768px) {
+    .footer-col {
+      margin-top: 5vh; /* Adjust top margin for smaller screens */
+    }
+  }
+  

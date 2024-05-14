@@ -1,0 +1,49 @@
+.teacher{
+    height: 60vh;
+    width: 100%;
+   
+    background-image: url('../Images/teaching-bg.webp');
+}
+
+
+.teacher {
+    height: 60vh;
+    width: 100%;
+    background-image: url('../Images/teaching-bg.webp');
+    background-size: cover; /* Ensure the background image covers the entire container */
+    background-position: center; /* Center the background image */
+  }
+  
+  .teacher .container {
+    padding: 20px; /* Add padding for better spacing */
+  }
+  
+  .teacher img {
+    max-width: 100%; /* Ensure the image doesn't exceed its container */
+  }
+  
+  .teacher p {
+    margin-top: 20px; /* Add margin to separate paragraphs */
+  }
+  
+  /* Media Queries */
+  @media only screen and (max-width: 768px) {
+    .teacher {
+      height: auto; /* Change height to auto for responsiveness */
+     
+    }
+
+    #teacherfix{
+      width: 100%; /* Adjust width for smaller screens */
+      margin-top: 0; /* Reset margin top */
+      text-align: center;
+
+    }
+   
+    
+    .teacher .container {
+      padding: 10px; /* Adjust padding for smaller screens */
+      justify-content: center;
+    }
+  }
+  

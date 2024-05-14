@@ -1,0 +1,117 @@
+
+
+ .smile-gallery-container {
+    background: #f1f0f0;
+  }
+  
+  .gallery-item {
+    /* border: 1px solid #ccc; */
+  }
+  
+  .gallery-item:hover {
+    /* border: 1px solid #777; */
+  }
+  
+  .gallery-item img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .smile-box {
+    height: 50vh;
+    border: 1px solid rgb(163, 160, 160);
+    width: 50vw;
+    background: #f1f0f0;
+    border: 2px solid rgb(163, 160, 160);
+    outline: #f1f0f0 solid 10px;
+    margin: auto;  
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .responsive {
+    padding: 0 6px;
+    float: left;
+    width: 19.99999%;
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 10px 0;
+    
+    }
+  }
+  
+  /* @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+  } */
+  
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+
+
+  .smile-gallery-container {
+    background: #f1f0f0;
+    padding: 20px; /* Added padding for better spacing */
+  }
+  
+
+  
+  .gallery-item img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .smile-box {
+    height: auto; /* Changed height to auto for responsiveness */
+
+    margin: auto;
+    /* padding: 20px; */
+   
+    background: #f1f0f0;
+    border: 2px solid rgb(163, 160, 160);
+    outline: #f1f0f0 solid 10px;
+  }
+  
+  /* Media Queries */
+  @media only screen and (max-width: 768px) {
+    .smile-box {
+      width: 100%;
+      height: auto; 
+    
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .gallery-item img {
+
+      margin-top: -10vh;
+    
+    
+    
+    }
+    #image1{
+      visibility: hidden;
+      display: none;
+  
+
+    }
+    #image2{
+      margin-top: -20vh;
+    }
+    #image3{
+      margin-top: 5vh;
+    }
+  }
+  
+  
+
+
+ 

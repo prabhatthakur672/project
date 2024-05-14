@@ -1,0 +1,39 @@
+
+
+
+.systembox {
+    width: 100%;
+  }
+  
+  #fiximage,
+  #fiximage2 {
+    width: 100%;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .systembox {
+      display: flex;
+      align-items: center;
+    }
+  
+    #fiximage {
+      width: 43%;
+      padding-right: 0px; /* Adjust spacing between image and text */
+    }
+  
+    #fiximage2 {
+      width: 70%;
+    }
+  }
+  
+  @media screen and (max-width: 767px) {
+    #fiximage,
+    #fiximage2 {
+      width: 100%;
+    }
+    #picclose{
+        visibility: hidden;
+        display: none;
+    }
+  }
+  

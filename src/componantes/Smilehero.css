@@ -1,0 +1,21 @@
+.heroimg{
+    background-image: url("../Images/DDDD.webp");
+    height: 30vh;
+    width: 100%;
+   
+
+  
+}
+
+@media (max-width: 768px) {
+    
+    #normaltext{
+        visibility: hidden;
+        display: none;
+    }
+    #novihide{
+        visibility: hidden;
+        display: none;
+    }
+    }
+  

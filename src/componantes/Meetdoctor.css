@@ -1,0 +1,46 @@
+/* Meetdoctor.css */
+
+.doctor {
+  height: auto;
+  min-height: 75vh;
+  width: 100%;
+  background: #f7f7f7;
+  position: relative;
+  opacity: 0.7;
+}
+
+.bottomleft {
+  position: absolute;
+  bottom: 8px;
+  left: 0px;
+  width: 40vw; /* Adjust width as needed */
+}
+
+#textgrow {
+  font-size: 5rem;
+  color: rgb(63, 114, 114);
+}
+
+#doctormen {
+  width: 50%; /* Adjust width for smaller screens */
+  margin-top: 15vh;
+}
+
+/* Media Query for small devices */
+@media (max-width: 768px) {
+  .bottomleft {
+    width: 20px;/* Adjust width for smaller screens */
+    /* background: transparent; */
+  }
+
+  #textgrow {
+    font-size: 3rem; /* Adjust font size for smaller screens */
+  }
+
+  #doctormen {
+    width: 100%; /* Adjust width for smaller screens */
+    margin-top: 0; /* Reset margin top */
+    text-align: center; /* Center align the content */
+  }
+}
+                                                                                                     
